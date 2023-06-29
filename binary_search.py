@@ -1,6 +1,6 @@
 
 #   @author [Ayan Shaikh]
-#   @email [ayansk152@mail.com]
+#   @email [ayansk152@gmail.com]
 #   @create date 2023-06-22 00:58:01
 #   @modify date 2023-06-29 19:45:39
 #   @desc [Implementing Binary Search Using Recursion in Python]

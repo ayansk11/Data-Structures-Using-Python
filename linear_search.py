@@ -1,9 +1,9 @@
 
 #   @author [Ayan Shaikh]
-#   @email [ayansk152@mail.com]
+#   @email [ayansk152@gmail.com]
 #   @create date 2023-06-21 22:08:33
 #   @modify date 2023-06-29 20:23:48
-#   @desc [Linear Search in Python]
+#   @desc [Implementing Linear Search in Python]
 
 
 
