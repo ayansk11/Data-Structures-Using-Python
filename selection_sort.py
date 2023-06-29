@@ -48,7 +48,7 @@ def selectionsort(arr):             #   function that will perform selection sor
             if arr[i] > arr[j]:               #   Swap if this condition is true
 
                 counter = counter + 1
-                arr[i],  arr[j] = arr[j], arr[i]        #   Swapping
+                arr[i],  arr[j] = arr[j], arr[i]        #   Swapping the elements here
 
     return arr, counter
 
