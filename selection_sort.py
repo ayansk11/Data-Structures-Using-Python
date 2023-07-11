@@ -2,7 +2,7 @@
 # @author [Ayan Shaikh]
 # @email [ayansk152@gmail.com]
 # @create date 2023-06-29 22:45:15
-# @modify date 2023-06-29 22:47:02
+# @modify date 2023-07-11 20:25:16
 # @desc [Implementing Selection Sort Using Python Programming]
 
 
@@ -12,7 +12,7 @@
 #   The time complexity of Selection Sort is O(n^2) as there are two nested loops:
 
 #       1) One loop to select an element in the array one by one = O(n)
-#       2) Another loop to compare that element with every other element in the array = O(N)
+#       2) Another loop to compare that element with every other element in the array = O(n)
 
 #   Therefore overall Time Complexity = O(n) * O(n) = O(n*n) = O(n^2)
 
@@ -52,12 +52,12 @@ def selectionsort(arr):             #   function that will perform selection sor
 
     return arr, counter
 
-
+print("\nPerforming Selection Sort on the Array..................\n")
 tic = time.time()  # capture start time
 search_result = selectionsort(arr)
 toc = time.time()  # capture end time
 
-print("\n"+"*****"*12+"\n")
+print("\n"+"*****"*12+"\n\nPrinting the Sorted Array : \n")
 print(arr)
 print("\n"+"*****"*12)
 print(f"\nNumber of swaps done: ", search_result[1])
