@@ -17,9 +17,9 @@
 
 
 
-import random
-import time
-import numpy as np
+import random                                   # importing built-in random module. The random module provides functions to generate random numbers and perform random operations. 
+import time                                     # importing built-in time module which provides various functions related to time and timing. It can be used for tasks like measuring the time taken by a piece of code to execute or introducing delays in your program.
+import numpy as np                              # importing the third-party library numpy and giving it the alias np. numpy is a powerful library for numerical computations in Python. It provides support for working with large, multi-dimensional arrays and matrices, along with a wide range of mathematical functions to operate on these arrays efficiently.
 
 print("\nCreating an array of random numbers\n") 
 
@@ -34,7 +34,7 @@ counter = 0             # setting a counter to count the number of iterations
 low = 0                   # initially low will be zero
 high = len(arr) - 1       
 
-def binarysearch(search_for, arr, low, high, counter):       # function that will perform binary search (recurrsively)
+def binarysearch(search_for, arr, low, high, counter):       # defining the function that will perform binary search (recurrsively)
 
     if low <= high:                         # condtion to prevent the code from going into infinite loop
 
@@ -58,10 +58,10 @@ def binarysearch(search_for, arr, low, high, counter):       # function that wil
 search_for = int(input("Enter the number you want to search: "))
 
 tic = time.time()  # capture start time
-search_result = binarysearch(search_for, arr, low, high, counter)
+search_result = binarysearch(search_for, arr, low, high, counter)                   # Calling the binarysearch function we defined above
 toc = time.time()  # capture end time
 
-if search_result[0] == -1:
+if search_result[0] == -1:                                                          # Printing the results
     
     print("\n"+"*****"*12)
     print(f"\nNumber {search_for} not found in the list\n")
